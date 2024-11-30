@@ -2,13 +2,14 @@
 #define LOG_H
 
 #include <string>
-
+//Klasa bazowa
 class Log {
 public:
     virtual ~Log() = default;
     virtual std::string getMessage() const = 0;
 };
 
+//Implementacje klasa info
 class InfoLog : public Log {
     std::string message;
 public:
@@ -16,6 +17,7 @@ public:
     std::string getMessage() const override { return message; }
 };
 
+//Implementacje klasa warning
 class WarningLog : public Log {
     std::string message;
 public:
@@ -23,6 +25,8 @@ public:
     std::string getMessage() const override { return message; }
 };
 
+
+//Implementacje klasa error
 class ErrorLog : public Log {
     std::string message;
 public:

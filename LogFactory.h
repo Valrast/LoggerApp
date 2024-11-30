@@ -5,6 +5,7 @@
 #include <memory>
 #include <stdexcept>
 
+//Klasa  fabryki tworzaca obiekty
 class LogFactory {
 public:
     static std::unique_ptr<Log> createLog(const int& type, const std::string& message) {

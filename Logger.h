@@ -20,7 +20,7 @@ public:
         return instance;
     }
 
-    void logMessage(const int& type, const std::string& message) {
+    void addMessage(const int& type, const std::string& message) {
         try {
             logs.push_back(LogFactory::createLog(type, message));
         } catch (const std::invalid_argument& e) {
@@ -28,7 +28,7 @@ public:
         }
     }
 
-    void showLogs() const {
+    void printLogs() const {
         std::cout << "===Przechowywane logi====="<<std::endl;
         for (const auto& log : logs) {
             std::cout << log->getMessage() << "\n";
