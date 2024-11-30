@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/LoggerApp.dir/main.cpp.o -o LoggerApp 

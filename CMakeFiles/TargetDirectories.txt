@@ -1,3 +1,0 @@
-/home/darek/Desktop/lab2/singleton-factory-logger/CMakeFiles/LoggerApp.dir
-/home/darek/Desktop/lab2/singleton-factory-logger/CMakeFiles/edit_cache.dir
-/home/darek/Desktop/lab2/singleton-factory-logger/CMakeFiles/rebuild_cache.dir
